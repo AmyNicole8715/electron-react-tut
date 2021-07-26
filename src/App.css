@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.messenger {
+
+}
+
+.navigator{
+
+}
+
+.topBar {
+  color:#300E2F;
+}
+
+.sideBar {
+  width: 441;
+  height: 1080;
+  background-color: #300E2F;
+  border-right: 1px solid rgb(245, 138, 255);
+}
+
+#TopBar {
+  position: absolute;
+  width: 1920px;
+  height: 100;
+  background-color: "#300E2F";
+  color: white;
+  border-bottom: 1px solid rgb(245, 138, 255);
+  flex-direction: row;
+}
+#SearchButton {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 1px solid rgb(245, 138, 255);
+  border-radius: 45px;
+  text-shadow: 0px 0px 0px transparent;
+}
+#NSB {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 576px;
+  height: 50px;
+  margin-left: 480px;
+  border: 1px solid rgb(245, 138, 255);
+  border-radius: 30px;
+  flex-direction: row;
+}
+
+#tlmLogo {
+  position: relative;
+  height: 176px;
+  width: 176px;
+  margin-top: -25px;
+
+}
